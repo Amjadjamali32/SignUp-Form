@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>SignUp Form</title>
+</head>
+<body>
+    <form method="post">
+        <div class="main_container">
+            <h2 id="name">SIGN UP</h2>
+            <div class="first_input">
+                <label for="user_name">Username</label><br>
+                <input type="text" id="user_name" name="uname" placeholder="User name" required>
+            </div>
+            <div class="second_input">
+                <label for="user_name">Email</label><br>
+                <input type="email" id="user_email" name="umail" placeholder="example@gmail.com" required>
+            </div>
+            <div class="third_input">
+                <label for="user_name">Password</label><br>
+                <input type="password" id="user_password" name="upass" placeholder="Password" required>
+            </div>
+            <div class="buton">
+                <button id="btn">Register</button>
+                <p id="dashes">-----------------<span id="or_para">OR</span>----------------</p>
+            </div>
+            <div class="icons">
+                <ul class="icons_list">
+                    <li><a href="https://www.gmail.com" target="_blank">
+                        <i class="fa-brands fa-google fa-2xl" style="color: #d32727;" id="google"></i>
+                    </a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f fa-2xl" style="color: #0a50db;"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2xl" style="color: #dc0462;"></i></a></li>
+                </ul>
+            </div>
+            <div class="text">
+                <p id="lastpara">Already a user? <a href="#" id="login">LOGIN</a></p>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
